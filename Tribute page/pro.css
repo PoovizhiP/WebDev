@@ -1,0 +1,83 @@
+#main {
+    background-color: rgb(104, 201, 101);
+    width: 10;
+    max-width: 100%;
+    position:50%;
+    margin:5px;
+    top: 10px;
+    bottom: 10px;
+    border-style: solid;
+    border-color: rgb(37, 25, 25);
+    border-width: 2px;
+    text-align: center;
+    margin: 30px 8px;
+    padding-left:250px ;
+    padding-right: 250px;
+    border-radius: 5px;
+    background: rgb(185, 136, 224);
+}
+ 
+  #title {
+    text-align: center;
+    font-size: 48px;
+    font-family: Slabo;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  #img-div {
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    }
+  #image {
+    position: relative;
+    width: 70%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  #img-caption {
+    font-family: sans-serif;
+   
+    text-align: center;
+  }
+  #tribute-info {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    font-family: sans-serif;
+    font-size: 16px; 
+    padding: 10px;
+    line-height: 1.5;
+    color: #333;
+  }
+  #title2{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  p {
+    font-size: 24px;
+    /* font-weight: bold; */
+    
+  }
+  
+  li {
+    margin: 10px 0px 20px 0px;
+  }
+  #sec{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+  }
+  #quote{
+    font-size: 18px;
+    text-align: center;
+  }
+  
