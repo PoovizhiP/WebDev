@@ -1,0 +1,43 @@
+<!-- here i am going to use little bit of basic javascript in html..
+this is for alert message using js without any file -->
+
+<!-- !! first example for internal alert message while we click a button
+!!!!!!   i am gonna comment a first program you can uncomment it -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="layout.css" rel="stylesheet">
+    <script  type="text/javascript"> function internal(){
+        alert("Internal alert");
+    }</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External Script</title>
+</head>
+<body>
+    <h2>Example for internal script</h2>
+    <input type="button" onclick="internal();" value="click here"/> 
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handler</title>
+    <script type="text/javascript">
+        function EventHandler(){
+            alert("Event Handler example");
+        }
+    </script>
+</head>
+<!-- Its working -->
+<body>
+   <p onmouseover="EventHandler();">    <!-- onmouseover is default keyword -->
+        Bring your mouse here if you want to see the alert message!!!
+    </p>
+</body>
+</html>

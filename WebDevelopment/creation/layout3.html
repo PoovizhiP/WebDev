@@ -1,0 +1,72 @@
+<!-- This is for Boolean in JavaScript -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .text1{
+            margin:100px 100px 100px 100px;
+            text-align:left;
+            height:75vh;
+            width:1000px;
+            background-image: linear-gradient(red, green, black);
+             
+            color:rgb(9, 8, 10);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      justify-content: center;
+      padding: 10px 10px 10px 10px;
+      
+        }
+        h1{
+            background-image: linear-gradient( blueviolet, white);
+            opacity: 10px;
+            padding-left: 10px;
+  
+        }
+        p{
+            background-color: cadetblue;
+        }
+        .buttons{
+            color: black;
+            background-color: darkkhaki;
+            transition:box-shadow .3s ease;
+            padding: 10px 10px 10px 10px;
+        }
+        .buttons:hover{
+            background-color: aqua;
+            box-shadow: 0px 0px 10px black;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolean</title>
+</head>
+
+<body class="text1">
+    <h1>Example for Boolean</h1>
+    <p>Display the value of boolean 8>9</p>
+    <button class="buttons" onclick="myBoolean()">
+        Answer
+    </button>
+   <p id="sample"></p>
+   <script>
+       function myBoolean(){
+           document.getElementById("sample").innerHTML=Boolean(8>9);
+       }
+   </script>
+
+<p>the value of 0</p>
+<button class="buttons" onclick="myBoolean1()">
+ Answer
+</button>
+<p id="sample1"></p>
+<script>
+   function myBoolean1(){
+       var x=0;
+       document.getElementById("sample1").innerHTML=Boolean(8>9);
+   }
+</script>
+
+
+</body>
+</html>
